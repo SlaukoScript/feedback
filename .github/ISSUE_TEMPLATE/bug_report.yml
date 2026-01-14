@@ -1,0 +1,55 @@
+name: Bug Report
+description: Report a bug with SlaukoBot or SlaukoScript services
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      description: Which product is this bug related to?
+      options:
+        - SlaukoBot Discord
+        - SlaukoBot Twitch
+        - Website / Dashboard
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug
+      placeholder: Describe the bug...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What should have happened instead?
+      placeholder: I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Go to...
+        2. Click on...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other information that might help (screenshots, error messages, etc.)
+      placeholder: Add any other context here...
+    validations:
+      required: false
