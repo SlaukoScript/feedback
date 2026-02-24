@@ -4,6 +4,7 @@ This repository is for bug reports, feature requests, and discussions about Slau
 
 ## Products
 
+- **SlaukoScript Web Dashboard** - Community management dashboard at [slaukoscript.com](https://slaukoscript.com)
 - **SlaukoBot for Discord** - Gaming bot with drop alerts, leveling, AutoMod, and more
 - **SlaukoBot for Twitch** - Coming soon!
 
@@ -15,5 +16,5 @@ This repository is for bug reports, feature requests, and discussions about Slau
 
 ## Links
 
-- Website: https://slaukoscript.de
+- Website: https://slaukoscript.com
 - Discord: https://discord.gg/uvEakpv7Nu

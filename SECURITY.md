@@ -2,6 +2,6 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability, please email security@slaukoscript.de instead of creating a public issue.
+If you discover a security vulnerability, please email security@slaukoscript.com instead of creating a public issue.
 
 We take security seriously and will respond within 48 hours.
