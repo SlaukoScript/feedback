@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report a bug with SlaukoBot or SlaukoScript services
+description: Report a bug with SlaukoScript products or services
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -9,9 +9,33 @@ body:
       label: Product
       description: Which product is this bug related to?
       options:
-        - SlaukoBot Discord
-        - SlaukoBot Twitch
-        - Website / Dashboard
+        - Web Dashboard
+        - Discord Bot
+        - Twitch Bot
+        - Public API
+        - Cross-Platform (ban sync, account linking, etc.)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature Area
+      description: Which feature area does this affect?
+      options:
+        - AutoMod / Spam Filtering
+        - Moderation (strikes, bans, mod queue)
+        - XP / Reputation / Leaderboards
+        - Raid Detection
+        - Appeals
+        - Custom Commands
+        - Automation Engine
+        - Roles / Rewards
+        - Timed Messages
+        - Billing / Subscriptions
+        - Webhooks / API Keys
+        - Authentication / Login
+        - Other
     validations:
       required: true
 

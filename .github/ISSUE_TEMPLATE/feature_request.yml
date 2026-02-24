@@ -9,10 +9,34 @@ body:
       label: Product
       description: Which product is this feature for?
       options:
-        - SlaukoBot Discord
-        - SlaukoBot Twitch
-        - Website / Dashboard
-        - New Product Idea
+        - Web Dashboard
+        - Discord Bot
+        - Twitch Bot
+        - Public API
+        - Cross-Platform (ban sync, account linking, etc.)
+        - New Product / General
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature Area
+      description: Which area does this relate to?
+      options:
+        - AutoMod / Spam Filtering
+        - Moderation (strikes, bans, mod queue)
+        - XP / Reputation / Leaderboards
+        - Raid Detection
+        - Appeals
+        - Custom Commands
+        - Automation Engine
+        - Roles / Rewards
+        - Timed Messages
+        - Billing / Subscriptions
+        - Webhooks / API Keys
+        - Authentication / Login
+        - New Feature Area
     validations:
       required: true
 
